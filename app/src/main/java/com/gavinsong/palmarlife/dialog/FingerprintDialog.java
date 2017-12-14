@@ -79,6 +79,12 @@ public class FingerprintDialog extends BaseDialog {
         public void onAuthenticateFailed(int helpId) {
             fingerprinttip.setText("验证失败,\n请在试一次");
             fingerprintflag.setImageResource(R.mipmap.alarm);
+            fingerprintflag.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    resetGuideViewState();
+                }
+            }, 1000);
         }
 
         @Override
