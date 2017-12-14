@@ -25,7 +25,9 @@ import javax.crypto.SecretKey;
 
 
 /**
- * Created by popfisher on 2016/11/7.
+ * @author gavinSong
+ * @date 2017/12/13
+ * @describe
  */
 
 @TargetApi(Build.VERSION_CODES.M)

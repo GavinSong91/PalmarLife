@@ -13,9 +13,10 @@ import com.apkfuns.logutils.LogUtils;
 
 import java.lang.ref.WeakReference;
 
-
 /**
- * Created by popfisher on 2016/11/7.
+ * @author gavinSong
+ * @date 2017/12/13
+ * @describe
  */
 @TargetApi(Build.VERSION_CODES.M)
 public class FingerprintCore {
